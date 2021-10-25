@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    color: #2c4058
+}
+.sectiondetail{
+    font-size: 1rem;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    color: #5a5a5a;
+}
+
+.headerimg{
+    width: 20%;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+/* .header a:hover{
+    background-color: #F8F8F8;
+} */
+
+/*popular in india*/
+.popularinindia{
+    font-size: 1rem;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    color: #5a5a5a;
+}
+
+.popularinindia .slider{
+    background-image: url('../image/slider4.jpeg');
+    background-repeat: no-repeat;
+}
+
+.popularinindia .card{
+    width: 80%;
+}
+.popularinindia .image{
+    width: 80%;
+    height: 100%;
+    padding-left: 35px;
+}
+
+.popularinindia .card p{
+    font-size: 14px;
+}
+
+.popularinindia .card hr{
+    margin-top: 0;
+    margin-bottom:0
+}
+
+.popularinindia .slider .leftblock{
+    width: 60%;
+}
+
+.popularinindia .slider .leftblock p{
+    background: #00000087;
+    color: #fff;
+    text-align:justify;
+}
+
+/* Must Visit Destinations*/
+.visit_destination .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.visit_destination .card{
+    box-shadow: 0 0 5px #e2e0e0;  
+}
+ 
+.visit_destination .card:hover{
+    box-shadow: 0 0 30px gray; 
+    border:transparent; 
+}
+ 
+/*immersive_experiences*/
+.immersive_experiences .card {
+    position: relative;
+}
+
+.immersive_experiences .card .cardbody{
+    position: absolute;
+    bottom: 0;
+    background-color: #00000087;
+}
+
+.immersive_experiences .card{
+    border:transparent;   
+}
+.immersive_experiences .card:hover{
+    box-shadow: 0 0 25px gray;
+    border:transparent;   
+}
+
+/*celebratewithus*/
+.celebratewithus .card{
+    background-color: #F8F8F8;
+}
+
+.celebratewithus .card:hover{
+    box-shadow: 0 0 25px gray;
+    border:transparent;
+}
+/*Blogs
+.blogs{
+
+}*/
+
+/*footer*/
+.footer{
+    background-color: #17406c;
+    color:#fff;
+}
+
+.footer a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+.footer hr{
+    height: 1px;
+    color: #fff;
+}
+
+.footer p{
+    color: #fff;
+    font-size: 14px;
+}
+
+/*ahmedabad page*/
+.imgdiv{
+    
+    overflow: hidden;
+}
+
+.img_amd{
+    width:100%;
+    height: 630px;
+    background-repeat:no-repeat;
+    object-fit: cover;
+    opacity: 0.5;
+    border-radius: 10px;
+}
